@@ -1,0 +1,122 @@
+.common-heading{
+    font-family: var(--headingfamily);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.text-cntr{
+    text-align:center;
+}
+.cl-wt{
+    background-color:white;
+}
+.displaynone{
+    display:none;
+}
+.displayblock{
+    display:block;
+}
+.container{
+    height:70vh;
+    padding:5rem;
+    display:flex;
+
+}
+.left-container{
+    width: 50%;
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+}
+.important{
+    color:var(--maincolor);
+}
+.right-container{
+    width:50%;
+}
+.right-container img{
+    position: relative;
+    float: right;
+    top: 6rem;
+    left: -6rem;
+
+}
+.ourportal{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.5rem;
+}
+.userform{
+    height: auto;
+    line-height: 4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+    background: white;
+    border-radius: 10%;
+    box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
+    margin-top: 1rem;
+}
+.inp-flex{
+    background:white;
+}
+.inp{
+    width: 20rem;
+    padding: .8rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    border:none;
+    /* margin-top: 2rem; */
+    transition: all .5s linear;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}
+.submit{
+    font-size: 1.3rem;
+    padding: .5rem 1rem;
+   border:none;
+    cursor: pointer;
+    transition: all .5s linear;
+    border-radius: 20px;
+    margin-top:1rem;
+    background:var(--blackcolor);
+    color: var(--whitecolor);
+    
+}
+.submit:hover{
+    background:var(--maincolor);
+    color: var(--blackcolor);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* border: 2px solid  #91660a; */
+}
+.switch{
+    display: flex;
+    justify-content: space-around;
+}
+.switch-btn{
+    font-size: 1.3rem;
+    padding: .2rem 1rem;
+    border: 2px solid var(--maincolor);
+    cursor: pointer;
+    transition: all .5s linear;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+.active{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background:var(--blackcolor);
+    color: var(--whitecolor);
+    border:none;
+}
+#success{
+    font-family: var(--supportfamily);
+    font-size: 1rem;
+    text-align: center;
+    color: green;
+    background:white;
+}
+

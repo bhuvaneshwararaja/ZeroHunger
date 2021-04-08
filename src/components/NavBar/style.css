@@ -1,0 +1,32 @@
+nav{
+    display:flex;
+    padding: .5rem;
+    justify-content: space-between;
+}
+.logo-sec{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: space-around;
+}
+.logo-sec img{
+    width: 70px;
+}
+.signin-sec{
+    display: flex;
+    align-items: center;
+}
+.signin-sec a{
+    font-size: 1.3rem;
+    padding: .5rem 1rem;
+    border: 2px solid var(--maincolor);
+    background: linear-gradient(to right, var(--whitecolor) 60%, var(--whitecolor) 50%);
+    cursor: pointer;
+    transition: all .5s linear;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.signin-sec a:hover{
+    background: linear-gradient(to right, var(--maincolor) 60%, var(--whitecolor) 50%);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}

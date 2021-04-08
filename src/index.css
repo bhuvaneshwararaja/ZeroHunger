@@ -1,0 +1,21 @@
+:root{
+  --contentfamily:"Sora",sans-serif;
+  --headingfamily:"Crimson Text",serif;
+  --supportfamily:"Noto Sans",sans-serif;
+  --maincolor:#daac4b;
+  --maincolorRgba:rgba(218,172,75,255);
+  --whitecolor:	#F8F9F9 ;
+  --blackcolor:#212121;
+}
+*{
+  background-color: var(--whitecolor);
+  font-family: var(--supportfamily);
+  color: var(--blackcolor);
+  outline: none;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+
